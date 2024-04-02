@@ -14,11 +14,6 @@ This repository contains the materials and documentation for my Junior Independe
 3. **Data Collection and Analysis**: Gathering data and feedback from users to inform the development and improvement of the website.
 4. **Documentation**: Documentation of the project process, including methodologies, design decisions, and challenges encountered.
 
-## Directory Structure
-- `website/`: Contains the source code and files for the website development.
-- `data_analysis/`: Contains data collection and analysis documents.
-- `documentation/`: Contains project documentation files.
-
 ## Getting Started
 To view the website and project materials:
 1. Clone this repository to your local machine.
