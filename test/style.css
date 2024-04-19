@@ -1,0 +1,143 @@
+/* Navigation Bar */
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 16pt;
+  background-color: transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #703f98; /* Lavender color */
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 45px;
+}
+
+nav ul li a {
+  color: #703f98; /* Lavender color */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #e6e6fa; /* Light lavender color */
+  padding: 5px;
+}
+
+/* Main Content Area */
+main {
+  padding: 20px;
+  background-color: #f3e5f5; /* Lavender color */
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Dropdown Style */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  appearance: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Dropdown Arrow */
+select:after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+select:hover {
+  border-color: #666;
+}
+
+/* Focus Effect */
+select:focus {
+  outline: none;
+  border-color: #333;
+}
+
+/* Style Dropdown Options */
+option {
+  padding: 8px 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Style Dropdown Options on Hover */
+option:hover {
+  background-color: #f4f4f4;
+}
+
+/* Style Dropdown Options on Focus */
+option:focus {
+  background-color: #e5e5e5;
+}
+
+/* Style Dropdown Options on Select */
+option:checked {
+  background-color: #e5e5e5;
+}
+
+/* Style Dropdown Options on Select with Arrow */
+option:checked:after {
+  content: '\25B2';
+  position: absolute;
+  top: 50%;
+  right: 10px
+}
